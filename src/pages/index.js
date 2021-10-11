@@ -272,7 +272,7 @@ const IndexPage = () => {
         </span>
       </p>
       <ul style={listStyles}>
-        <li style={docLinkStyle}>
+        {/* <li style={docLinkStyle}>
           <h2 style={sectionHeadingStyles}>
             SASS
           </h2>
@@ -296,7 +296,7 @@ const IndexPage = () => {
               <p style={descriptionStyle}>{link.description}</p>
             </span>
           </li>
-        ))}
+        ))} */}
         <li style={docLinkStyle}>
           <h2 style={sectionHeadingStyles}>
             Responsive Web Design
